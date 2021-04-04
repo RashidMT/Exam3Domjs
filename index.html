@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="header">
+		<form>
+			<h1>Movies</h1>
+			<div class="selectFilter">
+				<select>
+					<option value="all">Select genre</option>
+					<option value="comedy">Comedy</option>
+					<option value="religous">Religous</option>
+					<option value="horror">Horror</option>
+					<option value="sci-fi">Sci-Fi</option>
+					<option value="drama">Drama</option>
+					<option value="detective">Detective</option>
+				</select>
+				<button>Filter</button>
+			</div>
+		</form>
+	</div>
+	<ul class="list"></ul>
+
+	<script src="./js/database.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
